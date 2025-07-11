@@ -3,7 +3,7 @@ local opt = vim.o
 
 local File = {}
 
-local Component = require("noline.utility.component")
+local Component = require("noline.component")
 
 function File.current_dir()
   return fn.expand("%:p:h:t")

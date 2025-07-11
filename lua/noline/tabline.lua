@@ -1,6 +1,6 @@
 local M = {}
 
-local Component = require("noline.utility.component")
+local Component = require("noline.component")
 
 function M.button(symbol, l_decor, r_decor)
   if #vim.api.nvim_list_tabpages() == 1 then

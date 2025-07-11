@@ -3,7 +3,7 @@ local opt = vim.o
 
 local Edit = {}
 
-local Component = require("noline.utility.component")
+local Component = require("noline.component")
 
 Edit.default_mode_map = {
   ["abbr"] = {
